@@ -142,47 +142,47 @@
 <body>
     <!-- Navigation -->
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-md shadow-sm">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="font-display text-2xl font-bold gradient-text">MI</div>
-            <div class="flex gap-8 text-sm text-gray-700 font-medium">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+            <div class="font-display text-xl sm:text-2xl font-bold gradient-text">MI</div>
+            <div class="flex gap-4 sm:gap-6 md:gap-8 text-xs sm:text-sm text-gray-700 font-medium">
                 <a href="#about" class="nav-link hover:text-amber-700">About</a>
                 <a href="#work" class="nav-link hover:text-amber-700">Work</a>
-                <a href="#experience" class="nav-link hover:text-amber-700">Experience</a>
+                <a href="#experience" class="nav-link hover:text-amber-700 hidden sm:inline">Experience</a>
                 <a href="#contact" class="nav-link hover:text-amber-700">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
-        <div class="absolute top-20 left-10 w-64 h-64 bg-amber-300/30 rounded-full blur-3xl animate-float"></div>
-        <div class="absolute bottom-20 right-10 w-96 h-96 bg-red-300/30 rounded-full blur-3xl animate-float" style="animation-delay: 0.3s;"></div>
+    <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 pt-16 sm:pt-20">
+        <div class="absolute top-20 left-10 w-48 h-48 sm:w-64 sm:h-64 bg-amber-300/30 rounded-full blur-3xl animate-float"></div>
+        <div class="absolute bottom-20 right-10 w-64 h-64 sm:w-96 sm:h-96 bg-red-300/30 rounded-full blur-3xl animate-float" style="animation-delay: 0.3s;"></div>
         
-        <div class="max-w-6xl mx-auto px-6 text-center relative z-10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center relative z-10">
             <div class="animate-fadeInUp">
                 <div class="inline-block px-4 py-2 bg-amber-100 rounded-full border-2 border-amber-300 mb-6 text-sm text-amber-800 font-semibold">
                     Available for Freelance
                 </div>
             </div>
             
-            <h1 class="font-display text-7xl md:text-9xl font-black mb-6 leading-none animate-fadeInUp delay-100">
+            <h1 class="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-4 md:mb-6 leading-tight md:leading-none animate-fadeInUp delay-100">
                 <span class="gradient-text">Muhammad</span><br>
                 <span class="text-gray-900">Ibrahim</span>
             </h1>
             
-            <p class="text-xl md:text-2xl text-gray-700 font-bold mb-8 max-w-3xl mx-auto animate-fadeInUp delay-200">
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 font-bold mb-6 md:mb-8 max-w-3xl mx-auto animate-fadeInUp delay-200 px-4">
                 IT Officer × Graphic Designer × Team Leader
             </p>
             
-            <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-12 animate-fadeInUp delay-300 leading-relaxed">
+            <p class="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-8 md:mb-12 animate-fadeInUp delay-300 leading-relaxed px-4">
                 Crafting visual experiences and managing tech solutions with 3+ years of expertise in customer relations, graphic design, and IT infrastructure.
             </p>
             
-            <div class="flex gap-4 justify-center animate-fadeInUp delay-400 flex-wrap">
-                <a href="#work" class="px-8 py-4 bg-gradient-to-r from-amber-500 to-red-500 text-white font-bold rounded-lg hover:shadow-xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-105">
+            <div class="flex gap-3 sm:gap-4 justify-center animate-fadeInUp delay-400 flex-wrap px-4">
+                <a href="#work" class="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-amber-500 to-red-500 text-white font-bold rounded-lg hover:shadow-xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-105 text-sm sm:text-base">
                     View My Work
                 </a>
-                <a href="#contact" class="px-8 py-4 bg-white text-gray-900 font-bold rounded-lg border-2 border-gray-300 hover:border-amber-500 hover:shadow-lg transition-all duration-300 hover:scale-105">
+                <a href="#contact" class="px-6 sm:px-8 py-3 sm:py-4 bg-white text-gray-900 font-bold rounded-lg border-2 border-gray-300 hover:border-amber-500 hover:shadow-lg transition-all duration-300 hover:scale-105 text-sm sm:text-base">
                     Get In Touch
                 </a>
             </div>
@@ -196,77 +196,78 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-32 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="font-display text-5xl md:text-6xl font-black mb-16 gradient-text">
+    <section id="about" class="py-20 md:py-32 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-12 md:mb-16 gradient-text px-4">
                 About Me
             </h2>
             
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="space-y-6">
-                    <p class="text-lg text-gray-700 leading-relaxed">
+            <div class="grid md:grid-cols-2 gap-8 md:gap-12 px-4">
+                <div class="space-y-4 md:space-y-6">
+                    <p class="text-base md:text-lg text-gray-700 leading-relaxed">
                         I'm a multidisciplinary professional based in Karachi, Pakistan, combining technical expertise with creative design skills. Currently pursuing a Bachelor's in Computer Science while working as an IT Officer and Graphic Designer.
                     </p>
-                    <p class="text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base md:text-lg text-gray-700 leading-relaxed">
                         With a Diploma in Media Science from Arena Multimedia, I'm proficient in Adobe Creative Suite and bring a unique blend of technical problem-solving and creative innovation to every project.
                     </p>
                     
-                    <div class="flex gap-4 pt-4 flex-wrap">
-                        <a href="mailto:Ibrahimsaqib445@gmail.com" class="flex items-center gap-2 px-6 py-3 bg-amber-50 rounded-lg hover:bg-amber-100 border-2 border-amber-300 hover:border-amber-500 transition-all duration-300 hover:shadow-md">
-                            <svg class="w-5 h-5 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="flex gap-3 md:gap-4 pt-4 flex-wrap">
+                        <a href="/cdn-cgi/l/email-protection#234a6171626b6a6e7062726a6137373643646e626a6f2d606c6e" class="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-amber-50 rounded-lg hover:bg-amber-100 border-2 border-amber-300 hover:border-amber-500 transition-all duration-300 hover:shadow-md text-sm sm:text-base">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
-                            <span class="text-sm text-gray-800 font-medium">Email Me</span>
+                            <span class="text-gray-800 font-medium">Email Me</span>
                         </a>
-                        <a href="tel:+923171033194" class="flex items-center gap-2 px-6 py-3 bg-amber-50 rounded-lg hover:bg-amber-100 border-2 border-amber-300 hover:border-amber-500 transition-all duration-300 hover:shadow-md">
-                            <svg class="w-5 h-5 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="tel:+923171033194" class="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-amber-50 rounded-lg hover:bg-amber-100 border-2 border-amber-300 hover:border-amber-500 transition-all duration-300 hover:shadow-md text-sm sm:text-base">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                             </svg>
-                            <span class="text-sm text-gray-800 font-medium">Call Me</span>
+                            <span class="text-gray-800 font-medium">Call Me</span>
                         </a>
                     </div>
                 </div>
                 
-                <div class="space-y-8">
+                <div class="space-y-6 md:space-y-8">
                     <div>
-                        <h3 class="font-display text-2xl font-bold mb-4 text-amber-700 flex items-center gap-2">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <h3 class="font-display text-xl md:text-2xl font-bold mb-4 text-amber-700 flex items-center gap-2">
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                             </svg>
                             Technical Skills
                         </h3>
                         <div class="flex flex-wrap gap-2">
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">HTML</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">CSS</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">JavaScript</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Photoshop</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Illustrator</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Premiere Pro</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">IT Support</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Network Management</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Python</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">HTML</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">CSS</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">JavaScript</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Photoshop</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Illustrator</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Adobe Premiere Pro</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">IT Support</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Network Management</span>
                         </div>
                     </div>
                     
                     <div>
-                        <h3 class="font-display text-2xl font-bold mb-4 text-amber-700 flex items-center gap-2">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <h3 class="font-display text-xl md:text-2xl font-bold mb-4 text-amber-700 flex items-center gap-2">
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
                             Soft Skills
                         </h3>
                         <div class="flex flex-wrap gap-2">
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Leadership</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Team Management</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Problem-Solving</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Customer Relations</span>
-                            <span class="skill-tag px-4 py-2 bg-amber-50 rounded-full text-sm border-2 border-amber-200 text-gray-800 font-medium">Communication</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Leadership</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Team Management</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Problem-Solving</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Customer Relations</span>
+                            <span class="skill-tag px-3 sm:px-4 py-1.5 sm:py-2 bg-amber-50 rounded-full text-xs sm:text-sm border-2 border-amber-200 text-gray-800 font-medium">Communication</span>
                         </div>
                     </div>
                     
-                    <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl border-2 border-amber-300 shadow-md">
-                        <h3 class="font-display text-xl font-bold mb-2 text-amber-800">Education</h3>
+                    <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-5 md:p-6 rounded-xl border-2 border-amber-300 shadow-md">
+                        <h3 class="font-display text-lg md:text-xl font-bold mb-2 text-amber-800">Education</h3>
                         <p class="text-gray-800 font-semibold text-sm mb-1">Bachelor's in Computer Science</p>
-                        <p class="text-gray-600 text-sm">Federal Urdu University • GPA: 3.1 • 4th Semester</p>
+                        <p class="text-gray-600 text-xs sm:text-sm">Federal Urdu University • GPA: 3.1 • 4th Semester</p>
                     </div>
                 </div>
             </div>
@@ -274,38 +275,77 @@
     </section>
 
     <!-- Work Section -->
-    <section id="work" class="py-32 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="font-display text-5xl md:text-6xl font-black mb-16 gradient-text">
+    <section id="work" class="py-20 md:py-32 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-12 md:mb-16 gradient-text">
                 Featured Work
             </h2>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="work-grid">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8" id="work-grid">
                 <!-- Work items will be inserted here -->
             </div>
         </div>
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="py-32 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="font-display text-5xl md:text-6xl font-black mb-16 gradient-text">
+    <section id="experience" class="py-20 md:py-32 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-12 md:mb-16 gradient-text">
                 Experience
             </h2>
             
-            <div class="space-y-8">
-                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
+            <div class="space-y-6 md:space-y-8">
+                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-5 sm:p-6 md:p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                         <div>
-                            <h3 class="font-display text-2xl font-bold mb-1 text-gray-900">IT Officer / IT Support Engineer</h3>
-                            <p class="text-amber-700 font-bold">Suenos International Marketing</p>
+                            <h3 class="font-display text-xl md:text-2xl font-bold mb-1 text-gray-900">SEO Specialist</h3>
+                            <p class="text-amber-700 font-bold text-sm md:text-base">TechStep Solutions</p>
                         </div>
-                        <div class="text-gray-600 text-sm mt-2 md:mt-0 md:text-right font-medium">
+                        <div class="text-gray-600 text-xs sm:text-sm mt-2 md:mt-0 md:text-right font-medium">
+                            <div>Currently Learning</div>
+                            <div class="mt-1">Karachi, PK</div>
+                        </div>
+                    </div>
+                    <ul class="space-y-2 text-sm md:text-base text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Started as a 3-month intern, then hired as SEO Specialist based on performance</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Conducting keyword research and analysis to optimize website content for search engines</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Creating and publishing SEO-optimized content on web pages to improve organic rankings</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Building high-quality backlinks through strategic link building campaigns</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Managing business listings and implementing off-page SEO strategies</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-amber-600 mt-1 font-bold">▸</span>
+                            <span>Writing and publishing guest articles on multiple websites with strategic backlink placement</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-5 sm:p-6 md:p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                        <div>
+                            <h3 class="font-display text-xl md:text-2xl font-bold mb-1 text-gray-900">IT Officer / IT Support Engineer</h3>
+                            <p class="text-amber-700 font-bold text-sm md:text-base">Suenos International Marketing</p>
+                        </div>
+                        <div class="text-gray-600 text-xs sm:text-sm mt-2 md:mt-0 md:text-right font-medium">
                             <div>Apr 2023 – Present</div>
                             <div class="mt-1">Karachi, PK</div>
                         </div>
                     </div>
-                    <ul class="space-y-2 text-gray-700">
+                    <ul class="space-y-2 text-sm md:text-base text-gray-700">
                         <li class="flex items-start gap-2">
                             <span class="text-amber-600 mt-1 font-bold">▸</span>
                             <span>Provided end-to-end IT support resolving hardware, software, and connectivity issues</span>
@@ -321,18 +361,18 @@
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
+                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-5 sm:p-6 md:p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                         <div>
-                            <h3 class="font-display text-2xl font-bold mb-1 text-gray-900">Graphic Designer & Social Media Handler</h3>
-                            <p class="text-amber-700 font-bold">Suenos International Marketing</p>
+                            <h3 class="font-display text-xl md:text-2xl font-bold mb-1 text-gray-900">Graphic Designer & Social Media Handler</h3>
+                            <p class="text-amber-700 font-bold text-sm md:text-base">Suenos International Marketing</p>
                         </div>
-                        <div class="text-gray-600 text-sm mt-2 md:mt-0 md:text-right font-medium">
+                        <div class="text-gray-600 text-xs sm:text-sm mt-2 md:mt-0 md:text-right font-medium">
                             <div>Jul 2022 – Present</div>
                             <div class="mt-1">Karachi, PK</div>
                         </div>
                     </div>
-                    <ul class="space-y-2 text-gray-700">
+                    <ul class="space-y-2 text-sm md:text-base text-gray-700">
                         <li class="flex items-start gap-2">
                             <span class="text-amber-600 mt-1 font-bold">▸</span>
                             <span>Creating engaging social media graphics and promotional content</span>
@@ -348,18 +388,18 @@
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
+                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-5 sm:p-6 md:p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                         <div>
-                            <h3 class="font-display text-2xl font-bold mb-1 text-gray-900">Confirmation Manager</h3>
-                            <p class="text-amber-700 font-bold">Suenos International Marketing</p>
+                            <h3 class="font-display text-xl md:text-2xl font-bold mb-1 text-gray-900">Confirmation Manager</h3>
+                            <p class="text-amber-700 font-bold text-sm md:text-base">Suenos International Marketing</p>
                         </div>
-                        <div class="text-gray-600 text-sm mt-2 md:mt-0 md:text-right font-medium">
+                        <div class="text-gray-600 text-xs sm:text-sm mt-2 md:mt-0 md:text-right font-medium">
                             <div>Dec 2022 – Jul 2023</div>
                             <div class="mt-1">Karachi, PK</div>
                         </div>
                     </div>
-                    <ul class="space-y-2 text-gray-700">
+                    <ul class="space-y-2 text-sm md:text-base text-gray-700">
                         <li class="flex items-start gap-2">
                             <span class="text-amber-600 mt-1 font-bold">▸</span>
                             <span>Managed verification and confirmation processes ensuring accuracy and compliance</span>
@@ -371,18 +411,18 @@
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
+                <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-5 sm:p-6 md:p-8 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-xl transition-all duration-300">
                     <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                         <div>
-                            <h3 class="font-display text-2xl font-bold mb-1 text-gray-900">Team Supervisor</h3>
-                            <p class="text-amber-700 font-bold">Suenos International Marketing</p>
+                            <h3 class="font-display text-xl md:text-2xl font-bold mb-1 text-gray-900">Team Supervisor</h3>
+                            <p class="text-amber-700 font-bold text-sm md:text-base">Suenos International Marketing</p>
                         </div>
-                        <div class="text-gray-600 text-sm mt-2 md:mt-0 md:text-right font-medium">
+                        <div class="text-gray-600 text-xs sm:text-sm mt-2 md:mt-0 md:text-right font-medium">
                             <div>Jul 2020 – Dec 2020</div>
                             <div class="mt-1">Karachi, PK</div>
                         </div>
                     </div>
-                    <ul class="space-y-2 text-gray-700">
+                    <ul class="space-y-2 text-sm md:text-base text-gray-700">
                         <li class="flex items-start gap-2">
                             <span class="text-amber-600 mt-1 font-bold">▸</span>
                             <span>Supervised customer service representatives with focus on performance</span>
@@ -398,59 +438,59 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-32 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 relative overflow-hidden">
+    <section id="contact" class="py-20 md:py-32 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 relative overflow-hidden">
         <div class="absolute top-20 right-10 w-64 h-64 bg-amber-300/20 rounded-full blur-3xl"></div>
         
-        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-            <h2 class="font-display text-5xl md:text-6xl font-black mb-8 gradient-text">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+            <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 gradient-text">
                 Let's Work Together
             </h2>
             
-            <p class="text-xl text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p class="text-base sm:text-lg md:text-xl text-gray-700 mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
                 Have a project in mind? Need IT support or creative design work? Let's discuss how we can bring your vision to life.
             </p>
             
-            <div class="grid md:grid-cols-3 gap-6 mb-12">
-                <div class="bg-white p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300">
-                    <svg class="w-8 h-8 text-amber-700 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
+                <div class="bg-white p-5 md:p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-amber-700 mx-auto mb-3 md:mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
-                    <h3 class="font-display font-bold mb-2 text-gray-900">Email</h3>
-                    <a href="mailto:Ibrahimsaqib445@gmail.com" class="text-gray-700 hover:text-amber-700 text-sm break-all">
-                        Ibrahimsaqib445@gmail.com
+                    <h3 class="font-display font-bold mb-2 text-gray-900 text-sm md:text-base">Email</h3>
+                    <a href="/cdn-cgi/l/email-protection#9ad3f8e8fbf2f3f7e9fbebf3f8aeaeafdafdf7fbf3f6b4f9f5f7" class="text-gray-700 hover:text-amber-700 text-xs sm:text-sm break-all">
+                        <span class="__cf_email__" data-cfemail="c48da6b6a5acada9b7a5b5ada6f0f0f184a3a9a5ada8eaa7aba9">[email&#160;protected]</span>
                     </a>
                 </div>
                 
-                <div class="bg-white p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300">
-                    <svg class="w-8 h-8 text-amber-700 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="bg-white p-5 md:p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-amber-700 mx-auto mb-3 md:mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
-                    <h3 class="font-display font-bold mb-2 text-gray-900">Phone</h3>
-                    <a href="tel:+923171033194" class="text-gray-700 hover:text-amber-700 text-sm">
+                    <h3 class="font-display font-bold mb-2 text-gray-900 text-sm md:text-base">Phone</h3>
+                    <a href="tel:+923171033194" class="text-gray-700 hover:text-amber-700 text-xs sm:text-sm">
                         +92 317 1033194
                     </a>
                 </div>
                 
-                <div class="bg-white p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300">
-                    <svg class="w-8 h-8 text-amber-700 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="bg-white p-5 md:p-6 rounded-xl border-2 border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all duration-300 sm:col-span-2 md:col-span-1">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-amber-700 mx-auto mb-3 md:mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
-                    <h3 class="font-display font-bold mb-2 text-gray-900">Location</h3>
-                    <p class="text-gray-700 text-sm">Karachi, Pakistan</p>
+                    <h3 class="font-display font-bold mb-2 text-gray-900 text-sm md:text-base">Location</h3>
+                    <p class="text-gray-700 text-xs sm:text-sm">Karachi, Pakistan</p>
                 </div>
             </div>
             
-            <a href="mailto:Ibrahimsaqib445@gmail.com" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-500 to-red-500 text-white font-bold rounded-lg hover:shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-105">
+            <a href="/cdn-cgi/l/email-protection#9ed7fcecfff6f7f3edffeff7fcaaaaabdef9f3fff7f2b0fdf1f3" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-500 to-red-500 text-white font-bold rounded-lg hover:shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:scale-105">
                 Start a Conversation
             </a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-white border-t-2 border-amber-200 py-8">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <p class="text-gray-700 text-sm font-medium">
+    <footer class="bg-white border-t-2 border-amber-200 py-6 md:py-8">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+            <p class="text-gray-700 text-xs sm:text-sm font-medium">
                 © 2026 Muhammad Ibrahim. Designed & Built with passion.
             </p>
             <p class="text-gray-500 text-xs mt-2">
@@ -461,17 +501,17 @@
 
     <!-- Modal -->
     <div id="modal" class="modal">
-        <div class="p-4 w-full max-w-4xl">
-            <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+        <div class="p-2 sm:p-4 w-full max-w-4xl mx-4">
+            <div class="bg-white rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
                 <div id="modal-content"></div>
-                <button onclick="closeModal()" class="absolute top-4 right-4 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center hover:bg-amber-600 transition-colors text-white font-bold">
+                <button onclick="closeModal()" class="absolute top-2 right-2 sm:top-4 sm:right-4 w-8 h-8 sm:w-10 sm:h-10 bg-amber-500 rounded-full flex items-center justify-center hover:bg-amber-600 transition-colors text-white font-bold text-sm sm:text-base">
                     ✕
                 </button>
             </div>
         </div>
     </div>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         const projects = [
             {
                 id: 1,
@@ -534,10 +574,10 @@
                 <div class="aspect-square overflow-hidden bg-gray-50">
                     <img src="${project.image}" alt="${project.title}" class="w-full h-full object-cover">
                 </div>
-                <div class="p-6">
+                <div class="p-4 sm:p-5 md:p-6">
                     <div class="text-xs text-amber-700 font-bold mb-2">${project.category}</div>
-                    <h3 class="font-display text-xl font-bold mb-2 text-gray-900">${project.title}</h3>
-                    <p class="text-gray-600 text-sm">${project.description}</p>
+                    <h3 class="font-display text-lg sm:text-xl font-bold mb-2 text-gray-900">${project.title}</h3>
+                    <p class="text-gray-600 text-xs sm:text-sm">${project.description}</p>
                 </div>
             `;
             card.onclick = () => openModal(project);
@@ -549,25 +589,13 @@
             const content = document.getElementById('modal-content');
             content.innerHTML = `
                 <img src="${project.image}" alt="${project.title}" class="w-full h-auto">
-                <div class="p-8 bg-gradient-to-br from-orange-50 to-amber-50">
-                    <div class="text-sm text-amber-700 font-bold mb-2">${project.category}</div>
-                    <h3 class="font-display text-3xl font-bold mb-4 text-gray-900">${project.title}</h3>
-                    <p class="text-gray-700">${project.description}</p>
+                <div class="p-4 sm:p-6 md:p-8 bg-gradient-to-br from-orange-50 to-amber-50">
+                    <div class="text-xs sm:text-sm text-amber-700 font-bold mb-2">${project.category}</div>
+                    <h3 class="font-display text-2xl sm:text-3xl font-bold mb-3 sm:mb-4 text-gray-900">${project.title}</h3>
+                    <p class="text-sm sm:text-base text-gray-700">${project.description}</p>
                 </div>
             `;
             modal.classList.add('active');
         }
 
-        function closeModal() {
-            document.getElementById('modal').classList.remove('active');
-        }
-
-        // Close modal on outside click
-        document.getElementById('modal').addEventListener('click', (e) => {
-            if (e.target.id === 'modal') {
-                closeModal();
-            }
-        });
-    </script>
-</body>
-</html>
+        f
